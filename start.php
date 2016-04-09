@@ -15,8 +15,8 @@ if ( basename($_SERVER['PHP_SELF']) == basename( __FILE__ ) ) {
 // Global Variables
 global $designer_engine, $site_root, $VAR_product_code, $AJAX_designer_VARS, $product_layers, $product_fields, $AJD_DB, $product_template, $material;
 
-$site_root = $_SERVER['DOCUMENT_ROOT'];
-//$site_url = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+//$site_root = $_SERVER['DOCUMENT_ROOT'];
+$site_url = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
 
 //if(isset($_COOKIE['frontend']))
 	//$sess_id = md5($_COOKIE['frontend']);
